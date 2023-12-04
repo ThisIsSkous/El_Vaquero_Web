@@ -1,0 +1,95 @@
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #2e3642;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.title {
+  font-size: 5em;
+  color: #a9ad94;
+  margin: 20px 0 0;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #a9ad94;
+  padding: 10px;
+  width: 100%;
+  z-index: 1000;
+}
+
+.nav-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar li {
+  display: inline-block;
+  margin-right: 20px;
+  color: #351212;
+  cursor: pointer;
+}
+
+.navbar li:hover {
+  text-decoration: underline;
+}
+
+.login-button {
+  padding: 10px 15px;
+  font-size: 1em;
+  background-color: rgb(27, 20, 20);
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.login-button:hover {
+  background-color: #000000;
+}
+
+.content {
+  text-align: center;
+}
+
+.capabilities {
+  margin-top: 20px;
+}
+
+.capabilities h2 {
+  font-size: 2em;
+  color: #333;
+}
+
+.capabilities p {
+  font-size: 1em;
+  color: #555;
+}
+
+.footer {
+  background-color: #f2f2f2;
+  color: #555;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
